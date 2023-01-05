@@ -1,0 +1,60 @@
+.number {
+    border:0ch
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.number img {
+    width: 100%;
+    background-blend-mode:lighten;
+}
+
+.light{
+    font: small-caps bold 1.2rem sans-serif;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 4px 2px 0 blueviolet;
+    font-size:50px;
+    font-family: serif;
+    color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.styled{
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color:white;
+        text-shadow: 1px 1px 1px black;
+        border-radius: 10px;
+        background-color: rgba(220, 0, 0, 1);
+        background-image: linear-gradient(to top left, #00000033, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    }
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+.modif{
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    white-space:pre-line;
+    padding: 0;
+}
+.reverse{
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
